@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="theme1_violet">#540D6E</color>
+    <color name="theme1_pink">#EE4266</color>
+    <color name="theme1_sunglow">#FFD23F</color>
+    <color name="theme1_honeydew">#F3FCF0</color>
+    <color name="theme1_darkgreen">#1F271B</color>
+    <color name="theme1_lightgreen">#97EAD2</color>
+    <color name="theme1_plavender">#D8D4F2</color>
+    <color name="theme1_eggshel">#EFF0D1</color>
+    <color name="theme2_violet">#610F7F</color>
+    <color name="theme2_darkviolet">#2F0147</color>
+    <color name="theme2_purpureus">#9A4C95</color>
+    <color name="theme2_yellow">#FED766</color>
+    <color name="theme2_mango">#FA8334</color>
+    <color name="theme2_glace">#845A6D</color>
+    <color name="theme2_darkcerculan">#EDF1F8</color>
+    <color name="theme2_mintcream">#F7FFF7</color>
+    <color name="black">#000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="thick_blue">#2F3F51</color>
+    <color name="light_gray">#F6F6F6</color>
+    <color name="vlight_gray">#EBEBEB</color>
+    <color name="gray">#C49C9C9C</color>
+    <color name="dark_gray">#3d3e42</color>
+    <color name="green_light">#C7FADC</color>
+    <color name="green">#02A751</color>
+    <color name="green_200">#0A863D</color>
+    <color name="green_dark">#075828</color>
+    <color name="light_blue">#F1F1FD</color>
+    <color name="dark_blue">#171738</color>
+    <color name="blue">#3665B3</color>
+    <color name="dark_yellow">#b68529</color>
+    <color name="vlight_pink">#FCF1F4</color>
+    <color name="light_pink">#E196A1</color>
+    <color name="med_pink">#E04F5F</color>
+    <color name="dark_pink">#CC2452</color>
+    <color name="red">#FF0000</color>
+    <color name="title_green">#0A863D</color>
+
+    <color name="l_priority">#FFEDF1F8</color>
+    <color name="m_priority">#F3FCF0</color>
+    <color name="h_priority">#EFF0D1</color>
+
+    <color name="rdl_priority">#8694AF</color>
+    <color name="rdm_priority">#91AD87</color>
+    <color name="rdh_priority">#B5B695</color>
+
+
+</resources>

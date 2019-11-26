@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_row_item_rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dim_5"
+    android:background="@drawable/shape_darkblue"
+    android:padding="@dimen/dim_5">
+
+    <TextView
+        android:id="@+id/recycler_home_row_item_txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_margin="3dp"
+        android:gravity="start"
+        android:padding="@dimen/dim_5"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/recycler_home_row_item_txt_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_home_row_item_txt_title"
+        android:layout_alignParentStart="true"
+        android:layout_margin="3dp"
+        android:gravity="start"
+        android:padding="@dimen/dim_5"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_18" />
+
+    <TextView
+        android:id="@+id/recycler_home_row_item_txt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_home_row_item_txt_sub"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/dim_3"
+        android:ems="3"
+        android:fontFamily="@font/cairo_bold"
+        android:gravity="center"
+        android:padding="@dimen/dim_5"
+        android:singleLine="true"
+        android:textColor="@color/dark_blue"
+        android:textSize="@dimen/font_12" />
+
+</RelativeLayout>

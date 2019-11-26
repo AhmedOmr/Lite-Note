@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_priority_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_priority">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dim_5"
+        android:padding="@dimen/dim_5">
+
+        <TextView
+            android:id="@+id/txt_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/dim_10"
+            android:padding="@dimen/dim_5"
+            android:text="@string/priority"
+            android:textColor="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/rdgroup_priority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_priority"
+            android:layout_centerInParent="true"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/dim_5"
+            android:gravity="start"
+            android:padding="@dimen/dim_5">
+
+            <RadioButton
+                android:id="@+id/rd_neg_priority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:backgroundTint="@color/white"
+                android:buttonTint="@color/white"
+                android:gravity="start"
+                android:text="@string/neglected"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/rd_low_priority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="start|center"
+                android:backgroundTint="@color/l_priority"
+                android:buttonTint="@color/l_priority"
+                android:gravity="start|center"
+                android:text="@string/low"
+                android:textColor="@color/l_priority" />
+
+            <RadioButton
+                android:id="@+id/rd_med_priority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="start"
+                android:backgroundTint="@color/m_priority"
+                android:buttonTint="@color/m_priority"
+                android:gravity="start"
+                android:text="@string/medium"
+                android:textColor="@color/m_priority" />
+
+            <RadioButton
+                android:id="@+id/rd_high_priority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="start"
+                android:backgroundTint="@color/h_priority"
+                android:buttonTint="@color/h_priority"
+                android:gravity="start"
+                android:text="@string/high"
+                android:textColor="@color/h_priority" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rdgroup_priority"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/dim_5"
+            android:background="@drawable/shape_btn"
+            android:padding="@dimen/dim_10"
+            android:text="@string/confirm"
+            android:textAllCaps="false"
+            android:textColor="@color/dark_blue" />
+    </RelativeLayout>
+</ScrollView>

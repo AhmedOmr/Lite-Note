@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lite Note</string>
+    <string name="note_title">Title</string>
+    <string name="note_subject">Subject</string>
+    <string name="notes">Notes:</string>
+    <string name="yes">Yes</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="wait">Wait</string>
+    <string name="note_lite">Note Lite</string>
+    <string name="write_title_sub">Please write title or subject</string>
+    <string name="note_updated">Note Updated</string>
+    <string name="note_saved">Note Saved</string>
+    <string name="no">No</string>
+    <string name="title_delete">Delete note:</string>
+    <string name="massage_delete">Are you sure to delete this note ?</string>
+    <string name="subject_size">Subject Size:</string>
+    <string name="no_notes_found">No Notes Found ..!</string>
+    <string name="priority">Priority:</string>
+    <string name="neglected">Neglected</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="confirm">Confirm</string>
+
+</resources>

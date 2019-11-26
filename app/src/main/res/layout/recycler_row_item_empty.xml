@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycler_empty_item_fr_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context="com.mecodroid.notestrore.ui.activity.NoteActivity">
+
+    <TextView
+        android:id="@+id/recycler_empty_item_txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dim_8"
+        android:enabled="false"
+        android:gravity="center"
+        android:padding="@dimen/dim_3"
+        android:singleLine="true"
+        android:text="@string/no_notes_found"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

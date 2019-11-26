@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ملاحظات </string>
+    <string name="note_title">العنوان</string>
+    <string name="note_subject">الموضوع</string>
+    <string name="notes">الملاحظات</string>
+    <string name="wait">Wait</string>
+    <string name="note_lite">ملاحظاتي</string>
+    <string name="write_title_sub">من فضلك أدخل عنوان أو موضوع </string>
+    <string name="note_updated">تم تحديث الملاحظة</string>
+    <string name="note_saved">تم حفظ الملاحظة</string>
+    <string name="yes">نعم</string>
+    <string name="dismiss">تم الفقد</string>
+    <string name="no">لا</string>
+    <string name="title_delete">حذف الملاحظة:</string>
+    <string name="massage_delete">هل تريد حذف الملاحظة ؟</string>
+    <string name="subject_size">خط الموضوع:</string>
+    <string name="no_notes_found">لا يوجد ملاحظات محفوظة ...!</string>
+    <string name="priority">الأهمية:</string>
+    <string name="neglected">مهملة</string>
+    <string name="low">منخفضة</string>
+    <string name="medium">متوسطة</string>
+    <string name="high">عالية</string>
+    <string name="confirm">تأكيد</string>
+</resources>
